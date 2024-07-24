@@ -11,6 +11,11 @@
 		BE5F3C9B2C4B536C00CF22DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F3C9A2C4B536C00CF22DE /* ContentView.swift */; };
 		BE5F3C9D2C4B536D00CF22DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5F3C9C2C4B536D00CF22DE /* Assets.xcassets */; };
 		BE5F3CA02C4B536D00CF22DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5F3C9F2C4B536D00CF22DE /* Preview Assets.xcassets */; };
+		BE5F3CA72C4B553500CF22DE /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F3CA62C4B553500CF22DE /* Habit.swift */; };
+		BE5F3CA92C4B55B200CF22DE /* Habits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F3CA82C4B55B200CF22DE /* Habits.swift */; };
+		BE5F3CAD2C4BDD1B00CF22DE /* HabitListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F3CAC2C4BDD1B00CF22DE /* HabitListItemView.swift */; };
+		BE5F3CAF2C4BE42C00CF22DE /* HabitDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F3CAE2C4BE42C00CF22DE /* HabitDetailsView.swift */; };
+		BE5F3CB12C4DE6A100CF22DE /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F3CB02C4DE6A100CF22DE /* AddHabitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BE5F3C9A2C4B536C00CF22DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE5F3C9C2C4B536D00CF22DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE5F3C9F2C4B536D00CF22DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE5F3CA62C4B553500CF22DE /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		BE5F3CA82C4B55B200CF22DE /* Habits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habits.swift; sourceTree = "<group>"; };
+		BE5F3CAC2C4BDD1B00CF22DE /* HabitListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListItemView.swift; sourceTree = "<group>"; };
+		BE5F3CAE2C4BE42C00CF22DE /* HabitDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsView.swift; sourceTree = "<group>"; };
+		BE5F3CB02C4DE6A100CF22DE /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				BE5F3C982C4B536C00CF22DE /* HabitTrackerApp.swift */,
 				BE5F3C9A2C4B536C00CF22DE /* ContentView.swift */,
+				BE5F3CAE2C4BE42C00CF22DE /* HabitDetailsView.swift */,
+				BE5F3CAC2C4BDD1B00CF22DE /* HabitListItemView.swift */,
+				BE5F3CA62C4B553500CF22DE /* Habit.swift */,
+				BE5F3CB02C4DE6A100CF22DE /* AddHabitView.swift */,
+				BE5F3CA82C4B55B200CF22DE /* Habits.swift */,
 				BE5F3C9C2C4B536D00CF22DE /* Assets.xcassets */,
 				BE5F3C9E2C4B536D00CF22DE /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5F3CA72C4B553500CF22DE /* Habit.swift in Sources */,
 				BE5F3C9B2C4B536C00CF22DE /* ContentView.swift in Sources */,
+				BE5F3CB12C4DE6A100CF22DE /* AddHabitView.swift in Sources */,
+				BE5F3CAD2C4BDD1B00CF22DE /* HabitListItemView.swift in Sources */,
+				BE5F3CAF2C4BE42C00CF22DE /* HabitDetailsView.swift in Sources */,
+				BE5F3CA92C4B55B200CF22DE /* Habits.swift in Sources */,
 				BE5F3C992C4B536C00CF22DE /* HabitTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
